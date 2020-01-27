@@ -1,11 +1,28 @@
 package com.java.aks;
 
-public class Bird extends Animal {
-	void fly() {
+public class Bird implements Animal {
+	 public boolean fly() {
 		System.out.println("I am flying");
-		}
-	void sing() {
-		System.out.println("I am Singing");
+		return true;
 		}
 
+	  public boolean sing() {
+
+		System.out.println("I am Singing");
+		return true;
 	}
+
+	
+	public boolean walk() {
+		
+			System.out.println("I am walking");
+		return true;
+		
+	}
+
+	
+	public boolean swim() {
+		System.out.println("I cannot swim");
+		return false;
+	}
+}

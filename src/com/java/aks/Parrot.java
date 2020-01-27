@@ -8,6 +8,7 @@ public class Parrot extends Bird{
 	 this.animal =animal;
 	  
    }
+   @Override
  	  public boolean sing() {
 		animal.sing();
 		return true;

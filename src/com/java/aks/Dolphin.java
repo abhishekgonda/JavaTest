@@ -26,10 +26,8 @@ public class Dolphin implements Animal{
 		fish.walk();
 		return false;
 	}
-	@Override
 	public boolean swim() {
 		fish.swim();
 		return true;
 	}
-
 }
